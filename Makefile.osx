@@ -46,7 +46,7 @@ default: all
 all: dist
 
 dist: FreeImage
-  cp *.a Dist
+	cp *.a Dist
 	cp *.dylib Dist
 	cp Source/FreeImage.h Dist
 
