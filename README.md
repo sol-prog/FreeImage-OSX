@@ -8,6 +8,7 @@ You will also need to add *#include &lt;string.h&gt;* in Source/OpenEXR/IlmImf/I
 With the above modifications compiling FreeImage on ML with Xcode Command Line Tools installed is as simple as:
 
 *make*
+
 *sudo make install*
 
 The above will install FreeImage in /usr/local
