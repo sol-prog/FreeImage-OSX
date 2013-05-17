@@ -11,6 +11,10 @@ With the above modifications compiling FreeImage on ML with Xcode Command Line T
 
 *sudo make install*
 
-The above will install FreeImage in /usr/local
+The above will install FreeImage in /usr/local.
+
+Compiling and linking with FreeImage can be achieved with:
+
+*clang++ -stdlib=libc++ your_program_name.cpp -lfreeimage*
 
 These modifications are provided under the same terms as FreeImage 3.15.4.
